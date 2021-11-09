@@ -34,10 +34,7 @@ public class RestControlEmploye {
 	IEntrepriseService ientrepriseservice;
 	@Autowired
 	ITimesheetService itimesheetservice;
-
-	
-	//// http://localhost:8081/SpringMVC/servlet/ajouterEmployer
-	//
+//
 	
 	@PostMapping("/ajouterEmployer")
 	@ResponseBody
